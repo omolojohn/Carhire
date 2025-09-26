@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Jeep",
+      "model": "Wrangler",
+      "price": 5000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jeep_Wrangler_TJ.jpg"
+    },
+    {
+      "id": 2,
+      "make": "BMW",
+      "model": "3 Series",
+      "price": 5000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/BMW_3_Series_Compact_E46_154346.jpg"
+    },
+    {
+      "id": 3,
+      "make": "Toyota",
+      "model": "Corolla",
+      "price": 2000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Toyota_Corolla_Cross_Hybrid_Z_rear.jpg"
+    },
+    {
+      "id": 4,
+      "make": "Audi",
+      "model": "A3",
+      "price": 5000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Audi_A3.jpg"
+    },
+    {
+      "id": 5,
+      "make": "Mercedes Benz",
+      "model": "EQA",
+      "price": 5000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Mercedes-Benz_W115_220D_%281973%29.jpg"
+    },
+    {
+        "id": 6,
+        "make": "Mazda",
+        "model": "Atenza",
+        "price": 3000,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Mazda_6_GG_BJ_2005.JPG"
+      }
+  ]
+}

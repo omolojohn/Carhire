@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickRide Rentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero / Landing -->
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to QuickRide Rentals</h1>
+      <p>Drive your dream car today</p>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="section-card" id="services">
+    <div class="container">
+      <h2>Available Cars</h2>
+      <div id="car-list"></div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section class="section-card" id="booking">
+    <div class="container">
+      <h2>Book a Car</h2>
+
+      <form id="booking-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="car">Select Car:</label>
+        <select id="car" required></select>
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" min="1" required />
+
+        <button type="submit">Book Now</button>
+      </form>
+
+      <h3>Your Bookings</h3>
+      <ul id="booking-list"></ul>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section-card" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        At QuickRide Rentals, we pride ourselves on offering top-notch car rental
+        services. Whether you need a compact car for city driving, a luxury SUV
+        for comfort, or a rugged 4x4 for adventures, we’ve got you covered.
+      </p>
+      <p>
+        Our mission is to provide affordable, reliable, and convenient car rental
+        services for everyone. Book with us today and hit the road with confidence!
+      </p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
